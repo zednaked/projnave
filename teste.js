@@ -1,4 +1,4 @@
-let snave;
+= let snave;
 
 let sfundo;
 
@@ -25,7 +25,10 @@ function preload() {
 function atira ()
 
 {
-  
+  stiro = new Sprite ();
+stiro.addAni (imgtiro)
+    stiro.overlap (allSprites)
+  stiro.vel.y -10
   
 }
 
