@@ -25,12 +25,12 @@ function preload() {
 function atira ()
 
 {
-  stiro = new Sprite   ()
+  stiro = new Sprite()
   stiro.addAni (imgtiro)
   stiro.x = snave.x
   stiro.y = snave.y
   stiro.overlap (allSprites)
-  stiro.vel.y -10
+  stiro.vel.y = -10
   
 }
 
@@ -59,7 +59,8 @@ function draw() {
   if (timer1.expired())
   {
     
-    atira()
+    //atira()
+    timer1.start()
   }
        
-}
+ }
