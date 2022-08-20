@@ -1,4 +1,4 @@
-= let snave;
+let snave;
 
 let sfundo;
 
@@ -25,9 +25,11 @@ function preload() {
 function atira ()
 
 {
-  stiro = new Sprite ();
-stiro.addAni (imgtiro)
-    stiro.overlap (allSprites)
+  stiro = new Sprite   ()
+  stiro.addAni (imgtiro)
+  stiro.x = snave.x
+  stiro.y = snave.y
+  stiro.overlap (allSprites)
   stiro.vel.y -10
   
 }
@@ -46,14 +48,18 @@ function setup() {
   sfundo.y = height /2
   
 }
+
 function draw() {
   camera.on();
-  
+    
   snave.x += cos(frameCount * 10)/5
-  
-  
-      
-  
+       
   snave.moveTowards (mouse.x, snave.y)
-   
+    
+  if (timer1.expired())
+  {
+    
+    atira()
+  }
+       
 }
