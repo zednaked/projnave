@@ -87,7 +87,7 @@ let stars = [];
 
 function preload() {
   imgexplo1 = loadAnimation(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/explo1.png?v=1661951537251",
+    "/arte/explo1.png",
     { size: [145, 149], frames: 4 }
   );
 
@@ -120,7 +120,7 @@ function preload() {
   );
 
   imgtiro = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/tiro1.png?v=1661123371388"
+    "/arte/tiro.png"
   );
 
   imgtitle = loadImage(
@@ -136,7 +136,7 @@ function preload() {
   );
 
   imgcarta = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/carta1.png?v=1661784006379"
+    "/arte/carta1.png"
   );
 }
 
