@@ -124,7 +124,7 @@ function preload() {
   );
 
   imgtitle = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/title.png?v=1661375149718"
+    "/arte/title.png"
   );
 
   imgpressstart = loadImage(
