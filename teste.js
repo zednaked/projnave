@@ -95,13 +95,13 @@ function preload() {
     "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/vida.png?v=1661170916529"
   );
   imguidindin = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/dindin.png?v=1661170943164"
+    "/arte/dindin.png"
   );
   imgfundodir = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/bgdireita.png?v=1661170960785"
+    "/arte/bgdireita.png"
   );
   imgfundoesq = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/bgesquerda.png?v=1661170958211"
+    "/arte/bgesquerda.png"
   );
 
   imgfundoesq2 = loadImage(
@@ -109,7 +109,7 @@ function preload() {
   );
 
   imgnave = loadImage(
-    "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/nave1.png?v=1661123417428"
+    "/arte/nave.png"
   );
   // imgfundo = loadImage(
   //   "https://cdn.glitch.global/2dd145c2-5538-4020-93ce-5263a37dbbaa/fundo.png?v=1661123349545"
